@@ -293,7 +293,7 @@ footer{
     font-size: 1.2rem;
     color: #5A5A5D;
 }
-.logo{
+.logo-1{
     width: 80px;
     height: 100px;
 }
@@ -317,8 +317,12 @@ footer{
     .banner{
         padding: 10px 50px;
     }
-    .popular, .news, .choose-container, .destination{
+    .popular, .news, .choose-container, .destination, .navbar{
         flex-direction: column;
+    }
+    .navbar{
+        padding: 0px;
+        margin: 0px;
     }
     .news{
         max-height: none;
@@ -346,8 +350,7 @@ footer{
         max-width: 100%;
     }
     .foot{
-        width: 100%;
-        padding: 0px;
+        padding: 50px;
         margin: 0px;
     }
     .foot-logo{
@@ -355,9 +358,10 @@ footer{
         margin: 0px;
     }
     .logo{
-        padding: 50px;
-        height: 50px;
-        width: 50px;
+       margin-bottom: 10px;
+    }
+    .logo img{
+        padding: 0px;
     }
     .social{
         
